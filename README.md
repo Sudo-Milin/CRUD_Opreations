@@ -6,4 +6,4 @@ This is a small but very basic and important project that one should surely try.
 This web application is made using Django, python's very own web development framework. The project includes creation of models, defining views, creating and rendering forms, creating templates.
 Try creating one of your own. You can also style it beautifully using css, bootstrap etc.
 
-#### PEACE!
+##### PEACE!
