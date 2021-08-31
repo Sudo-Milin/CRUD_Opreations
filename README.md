@@ -7,3 +7,9 @@ This web application is made using Django, python's very own web development fra
 Try creating one of your own. You can also style it beautifully using css, bootstrap etc.
 
 ##### PEACE!
+
+
+
+https://user-images.githubusercontent.com/69210892/131482432-300ad57c-2436-4dec-aae9-1fb3cbe018c1.mp4
+
+
