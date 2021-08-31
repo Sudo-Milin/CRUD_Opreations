@@ -1,0 +1,14 @@
+{% extends "crud_app/base.html" %}
+
+{% block content %}
+
+    <a href="{% url 'crud_app:home-page' %}">Go Back to <i>Home</i></a>
+    <hr>
+    <h2 align="center">Update text</h2>
+    {% for text in update_list %}
+        <ul>
+            <li>{{ text }} <a href="{% url 'crud_app:update-page' text.id %}"><button type="submit">Update</button></a></li>
+        </ul>
+    {% endfor %}
+
+{% endblock content %}

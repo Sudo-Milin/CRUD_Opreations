@@ -1,0 +1,10 @@
+{% extends "crud_app/base.html" %}
+
+{% block content %}
+
+    <a href="{% url 'crud_app:create-page' %}">Create</a>
+    <a href="{% url 'crud_app:retrive-page' %}">Retrive</a>
+    <a href="{% url 'crud_app:update-list' %}">Update</a>
+    <a href="{% url 'crud_app:delete-page' %}">Delete</a>
+
+{% endblock content %}

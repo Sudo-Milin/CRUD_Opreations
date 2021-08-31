@@ -1,0 +1,14 @@
+{% extends "crud_app/base.html" %}
+
+{% block content %}
+
+    <a href="{% url 'crud_app:home-page' %}">Go Back to <i>Home</i></a>
+    <hr>
+    <h2 align="center">List of all text</h2>
+    {% for text in list_of_text %}
+        <ul>
+            <li>{{ text }}</li>
+        </ul>
+    {% endfor %}
+
+{% endblock content %}

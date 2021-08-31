@@ -1,0 +1,13 @@
+{% extends "crud_app/base.html" %}
+
+{% block content %}
+
+    <a href="{% url 'crud_app:home-page' %}">Go Back to <i>Home</i></a>
+    <h2 align="center">Update text</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+    </form>
+
+{% endblock content %}
